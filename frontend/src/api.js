@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://practice-1-6efk.onrender.com',
+  baseURL: 'https://practice-1-6efk.onrender.com/api',
 });
 
 api.interceptors.request.use(
